@@ -1,0 +1,90 @@
+/* MAIN STYLES */
+
+:root{
+    --white-color:#FFF;
+    --slate-color:#434455;
+    --navy-blue-color:#2E2F42;
+    --cloud-color:#F4F4FD;
+    --iris-color:#4D5AE5;
+    --ocean-color:#404BBF;
+    --cornflower-color:#E7E9FC;
+}
+
+body{
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--slate-color);
+    background-color: var(--white-color);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+button{
+    color: inherit;
+}
+
+/* HEADER SEACTION */
+
+.header-nav{
+    color: var(--navy-blue-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.header-icon{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+}
+
+.header-span{
+    color: var(--iris-color);
+}
+
+.header-list{
+    font-weight: 500;
+}
+
+.header-address-list {
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* SECTION 1 */
+
+.first-section-div{
+    color: var(--white-color);
+    background-color: var(--navy-blue-color);
+}
+
+.first-section-h{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    font-weight: 700;
+}
+
+.first-section-btn{
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: var(--iris-color);
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    font-weight: 500;
+}
+
+/* SECTION 2 */
+
+.benefits-title{
+    display: none;
+}
