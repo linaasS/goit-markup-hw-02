@@ -64,20 +64,20 @@ p{
     letter-spacing: 0.02em;
 }
 
-.header-address-list-item:focus{
-    color: var(--ocean-color);
-}
-
-.header-address-list-item:hover{
-    color: var(--ocean-color);
-}
-
 .header-address{
     font-style: normal;
 }
 
 .header-address-list-item{
     color: var(--slate-color);
+}
+
+.header-address-list-item:hover {
+    color: var(--ocean-color);
+}
+
+.header-address-list-item:focus {
+    color: var(--ocean-color);
 }
 
 /* SECTION 1 */
