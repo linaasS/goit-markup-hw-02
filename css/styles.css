@@ -19,7 +19,6 @@ body{
 .link{
     text-decoration: none;
     color: inherit;
-    color: var(--ocean-color);
 }
 
 .list{
@@ -71,6 +70,10 @@ p{
 
 .header-address-list-item{
     color: var(--slate-color);
+}
+
+.link:hover, .link:focus{
+    color: var(--ocean-color);
 }
 
 /* SECTION 1 */
