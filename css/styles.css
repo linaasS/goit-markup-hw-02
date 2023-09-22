@@ -64,11 +64,7 @@ p{
     letter-spacing: 0.02em;
 }
 
-.header-list-item:hover{
-    color: var(--ocean-color);
-}
-
-.header-list-item:focus{
+.header-list-item:hover, .header-list-item:focus{
     color: var(--ocean-color);
 }
 
@@ -106,8 +102,7 @@ p{
     cursor: pointer;
 }
 
-.first-section-btn:hover,
-.first-section-btn:focus{
+.first-section-btn:hover, .first-section-btn:focus{
     background-color: var(--ocean-color);
 }
 
@@ -191,10 +186,10 @@ p{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus{
+.portfolio-btn:hover, .portfolio-btn:focus{
     color: var(--white-color);
     background-color: var(--ocean-color);
 }
