@@ -19,25 +19,30 @@
     <header class="header">
       <!-- Меню навігації -->
       <nav class="header-nav">
-        <a class="icon" href="./index.html"
-          ><span class="header-footer-span">Web</span>Studio</a
+        <a class="icon link" href="./index.html"
+          >Web<span class="header-span">Studio</span></a
         >
-        <ul class="header-list">
-          <li class="header-list-item"><a href="./index.html">Studio</a></li>
+        <ul class="list header-list">
           <li class="header-list-item">
-            <a href="./portfolio.html">Portfolio</a>
+            <a class="link" href="./index.html">Studio</a>
           </li>
-          <li class="header-list-item"><a href="">Contacts</a></li>
+          <li class="header-list-item">
+            <a class="link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-list-item"><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
       <!-- Меню адреси -->
       <address class="header-address">
-        <ul class="header-address-list">
+        <ul class="list header-address-list">
           <li class="header-list-item header-address-list-item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ><br />
           </li>
           <li class="header-list-item header-address-list-item">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a><br />
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a
+            ><br />
           </li>
         </ul>
       </address>
@@ -45,16 +50,14 @@
     <!-- Основний контент -->
     <main>
       <!-- Секція 1 -->
-      <section>
-        <div class="first-section-div">
-          <h1 class="first-section-h">Effective Solutions for Your Business</h1>
-          <button class="first-section-btn" type="button">Order Service</button>
-        </div>
+      <section class="first-section">
+        <h1 class="first-section-h">Effective Solutions for Your Business</h1>
+        <button class="first-section-btn" type="button">Order Service</button>
       </section>
       <!-- Benefits -->
       <section class="benefits-section">
         <h2 class="benefits-title" hidden>Benefits</h2>
-        <ul class="benefits-list">
+        <ul class="list benefits-list">
           <li class="benefits-list-item">
             <h3 class="benefits-list-item-title">Strategy</h3>
             <p class="benefits-list-item-p">
@@ -86,9 +89,9 @@
         </ul>
       </section>
       <!-- DOING SECTION -->
-      <section>
+      <section class="doing-section">
         <h2 class="doing-title">What are we doing</h2>
-        <ul class="doing-list">
+        <ul class="list doing-list">
           <li class="doing-list-item">
             <img
               src="./images/img-1.jpg"
@@ -118,7 +121,7 @@
       <!-- TEAM SECTION -->
       <section class="team-section">
         <h2 class="team-title">Our Team</h2>
-        <ul class="team-list">
+        <ul class="list team-list">
           <li class="team-list-item">
             <!-- Mark Guerrero -->
             <img
@@ -167,17 +170,15 @@
       </section>
     </main>
     <!-- Футер -->
-    <footer>
-      <div class="footer-div">
-        <!-- Логотип -->
-        <a class="icon" href="./index.html"
-          ><span class="header-footer-span">Web</span>Studio</a
-        >
-        <p class="footer-p">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
+    <footer class="footer">
+      <!-- Логотип -->
+      <a class="icon link" href="./index.html"
+        >Web<span class="footer-span">Studio</span></a
+      >
+      <p class="footer-p">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
   </body>
 </html>
