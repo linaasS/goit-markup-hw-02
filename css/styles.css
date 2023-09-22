@@ -64,7 +64,7 @@ p{
     letter-spacing: 0.02em;
 }
 
-.header-list-item:hover, .header-list-item:focus{
+.link-address:hover, .link-address:focus{
     color: var(--ocean-color);
 }
 
